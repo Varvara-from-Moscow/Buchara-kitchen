@@ -1,3 +1,8 @@
+.login__container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .login__form {
     display: flex;
     flex-direction: column;
@@ -6,9 +11,7 @@
 .login__button {
     border-radius: 30px;
     background-color: rgb(33, 159, 238);
-    min-width: 260px;
-    margin-left: 15px;
-    margin-right: 15px;
+    width: 100%;
     height: 46px;
     border: none;
     color: #fff;
@@ -16,12 +19,12 @@
 }
 
 .login__input {
-    min-width: 260px;
-    margin-left: 15px;
-    margin-right: 15px;
+    width: 100%;
     height: 46px;
     margin-bottom: 46px;
     padding: 0;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 
 .login__input:first-of-type {
@@ -35,6 +38,5 @@
 .login__input-title {
     align-self: flex-end;
     color: rgb(159, 165, 171);
-    margin-right: 15px;
     margin-top: 0;
 }
